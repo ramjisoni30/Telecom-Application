@@ -7,7 +7,7 @@ Infrastructure as Code (IaC) Provisioning for a Telecomm System
 
 ## 📝 Project Description
 
-This project focuses on automating the provisioning and deployment of infrastructure for a **Telecommunication System** using **Infrastructure as Code (IaC)** tools such as **Terraform** and **Ansible**.
+This project focuses on automating the provisioning and deployment of infrastructure for a **Telecommunication System** using **Infrastructure as Code (IaC)** tools such as **Terraform** .
 
 The main goal is to enable script-based deployment of:
 
@@ -17,7 +17,6 @@ The main goal is to enable script-based deployment of:
 The project also includes automated installation of core dependencies such as:
 
 - Terraform  
-- Ansible  
 - Docker  
 - Kubernetes tools  
 
@@ -42,7 +41,6 @@ By using IaC, this approach eliminates manual configuration errors and ensures a
 | **Git** | Version control and collaboration |
 | **Docker** | Containerized environment setup |
 | **Terraform** | Infrastructure provisioning (AWS/local) |
-| **Ansible** | Configuration management and automation |
 | **Jenkins / GitHub Actions** | CI/CD pipeline automation |
 | **Kubernetes (K8s)** | Container orchestration for scalable deployment |
 
@@ -69,10 +67,6 @@ telecomm-iac-provisioning/
 │   ├── main.tf
 │   ├── variables.tf
 │   └── outputs.tf
-│
-├── ansible/            # Ansible playbooks for configuration
-│   ├── install.yml
-│   └── deploy.yml
 │
 ├── docker/             # Docker environment setup
 │   ├── Dockerfile
